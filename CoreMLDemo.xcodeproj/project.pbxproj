@@ -13,6 +13,12 @@
 		13735A6A26077DF2000F770A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13735A5526077DF1000F770A /* ContentView.swift */; };
 		13735A6B26077DF2000F770A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13735A5626077DF2000F770A /* Assets.xcassets */; };
 		13735A6C26077DF2000F770A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13735A5626077DF2000F770A /* Assets.xcassets */; };
+		13735A7826077E09000F770A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13735A7726077E09000F770A /* ImagePicker.swift */; };
+		13735A7926077E09000F770A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13735A7726077E09000F770A /* ImagePicker.swift */; };
+		13735A7D26077E27000F770A /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 13735A7C26077E27000F770A /* GoogLeNetPlaces.mlmodel */; };
+		13735A7E26077E27000F770A /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 13735A7C26077E27000F770A /* GoogLeNetPlaces.mlmodel */; };
+		13735A8226077E37000F770A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13735A8126077E37000F770A /* Extensions.swift */; };
+		13735A8326077E37000F770A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13735A8126077E37000F770A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,9 @@
 		13735A6326077DF2000F770A /* CoreMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13735A6526077DF2000F770A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13735A6626077DF2000F770A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		13735A7726077E09000F770A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		13735A7C26077E27000F770A /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		13735A8126077E37000F770A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +66,12 @@
 		13735A5326077DF1000F770A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				13735A7C26077E27000F770A /* GoogLeNetPlaces.mlmodel */,
 				13735A5426077DF1000F770A /* CoreMLDemoApp.swift */,
 				13735A5526077DF1000F770A /* ContentView.swift */,
+				13735A7726077E09000F770A /* ImagePicker.swift */,
 				13735A5626077DF2000F770A /* Assets.xcassets */,
+				13735A8126077E37000F770A /* Extensions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,8 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13735A8226077E37000F770A /* Extensions.swift in Sources */,
+				13735A7826077E09000F770A /* ImagePicker.swift in Sources */,
 				13735A6926077DF2000F770A /* ContentView.swift in Sources */,
 				13735A6726077DF2000F770A /* CoreMLDemoApp.swift in Sources */,
+				13735A7D26077E27000F770A /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13735A8326077E37000F770A /* Extensions.swift in Sources */,
+				13735A7926077E09000F770A /* ImagePicker.swift in Sources */,
 				13735A6A26077DF2000F770A /* ContentView.swift in Sources */,
 				13735A6826077DF2000F770A /* CoreMLDemoApp.swift in Sources */,
+				13735A7E26077E27000F770A /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
